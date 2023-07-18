@@ -13,31 +13,21 @@
 </head>
 
 <body>
-  <section class="block container">
-    <header class="block__header">
-      <h2 class="block__heading">Heading</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, atque laudantium. Nesciunt ex pariatur minima
-        suscipit ab assumenda, necessitatibus tenetur.
-      </p>
-    </header>
-    <div style="width: 30%; padding: 4rem">
-      <div class="card card--secondary">
-        <header class="card__header">Card Title</header>
-        <div class="card__body">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, assumenda?
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="block block--dark block--skwed-left ">
-    <div class="container">
-      <h2 class="block__heading">Heading</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, atque laudantium. Nesciunt ex pariatur
-        minima suscipit ab assumenda, necessitatibus tenetur.</p>
-    </div>
-  </section>
+  <!-- Navigation Start -->
+  <nav class="nav collapsible">
+    <a href="/" class="test__logo"><img src="./images/logo.svg" alt=""></a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Hosting</a></li>
+        <li class="nav__item"><a href="#">VPS</a></li>
+        <li class="nav__item"><a href="#">Domain</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+      </ul>
+  </nav>
 
+  <!-- Navigation End -->
   <script src="./js/main.js"></script>
 </body>
 
