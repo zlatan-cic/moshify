@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Moshify - pratice</title>
-  </head>
 
-  <body>
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-          <svg class="icon icon--white collapsible__chevron">
-            <use xlink:href="images/sprite.svg#chevron"></use>
-          </svg>
-      </header>
-      <div class="collapsible__content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illum ex sed architecto quam, numquam debitis omnis voluptatem rem incidunt!
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Moshify - pratice</title>
+</head>
+
+<body>
+  <section class="block container">
+    <header class="block__header">
+      <h2 class="block__heading">Heading</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, atque laudantium. Nesciunt ex pariatur minima
+        suscipit ab assumenda, necessitatibus tenetur.
+      </p>
+    </header>
+    <div style="width: 30%; padding: 4rem">
+      <div class="card card--secondary">
+        <header class="card__header">Card Title</header>
+        <div class="card__body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, assumenda?
+        </div>
       </div>
     </div>
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-          <svg class="icon icon--white collapsible__chevron">
-            <use xlink:href="images/sprite.svg#chevron"></use>
-          </svg>
-      </header>
-      <div class="collapsible__content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illum ex sed architecto quam, numquam debitis omnis voluptatem rem incidunt!
-      </div>
+  </section>
+  <section class="block block--dark block--skwed-left ">
+    <div class="container">
+      <h2 class="block__heading">Heading</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, atque laudantium. Nesciunt ex pariatur
+        minima suscipit ab assumenda, necessitatibus tenetur.</p>
     </div>
+  </section>
 
-    <script src="./js/main.js"></script>
-  </body>
+  <script src="./js/main.js"></script>
+</body>
 
 </html>
